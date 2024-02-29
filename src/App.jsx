@@ -15,7 +15,7 @@ function App() {
        <Header></Header>
        <BlogItems></BlogItems>
        <Blog></Blog> 
-       {/* <DisplayBlog></DisplayBlog> */}
+      
     </div>
   )
   

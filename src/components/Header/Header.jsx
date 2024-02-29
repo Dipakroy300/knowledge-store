@@ -7,10 +7,11 @@ const Header = () => {
             <nav className='header'>
                 <h1>Knowledge Craft</h1>
                 <img src={logo} alt="" />
-            </nav>
-            <hr />
+               </nav>
+               <hr />
         </div>
-    );
+    )
+       
 };
 
 export default Header;

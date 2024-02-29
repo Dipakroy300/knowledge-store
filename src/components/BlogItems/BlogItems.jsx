@@ -48,7 +48,7 @@ const BlogItems = () => {
                 }
 
             </div>
-            <div>
+            <div className='side-container'>
                 <div className='spentTimeCount'>
                     <h2>Spent time on road:{count}</h2>
                 </div>
