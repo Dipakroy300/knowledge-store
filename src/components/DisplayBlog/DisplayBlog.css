@@ -84,3 +84,10 @@
 .bookmark:hover{
     color: tomato;
 }
+
+
+@media screen and (max-width:576px) {
+    .bookmark{
+        margin-right: 20px;
+    }
+}

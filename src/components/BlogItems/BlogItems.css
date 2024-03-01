@@ -31,13 +31,13 @@
  @media screen and (max-width:576px) {
      .blogItems-container{
      flex-direction: column;
-     margin:30px 200px;
+     /* margin:30px 100px; */
      width: 500px;
     }
     .bookmark-container{
-        margin:30px 340px;
+        margin-left: 120px;
     }
     .spentTimeCount{
-        margin: 0px 340px;
+       margin-left: 120px;
     }
 } 
