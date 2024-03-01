@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './BlogItems.css';
 import Bookmark from '../Bookmark/Bookmark';
 import DisplayBlog from '../DisplayBlog/DisplayBlog';
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer,toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
@@ -23,8 +23,9 @@ const BlogItems = () => {
         posts.find(post=>{
             if(post.title){
 
-                toast('bookmarked this blog');
+                toast('you already bookmarked this blog');
             }
+            
         })
     }
     const handleMarkAsRead=(time)=>{
@@ -57,7 +58,8 @@ const BlogItems = () => {
                     <div>
                         {
                             posts.map(post=> <Bookmark
-                            key={post.id}
+                             key={post.id}
+                             title={post.title}
                             ></Bookmark> )
                         }
                         <ToastContainer/>

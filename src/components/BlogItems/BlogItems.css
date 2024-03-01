@@ -6,8 +6,7 @@
 
 .side-container{
     padding-left: 40px;
-    position: sticky;
-    top: 0;
+  
 }
 
 .spentTimeCount{
@@ -28,3 +27,17 @@
     padding-right: 5px;
     margin-top: 12px;
 }
+
+ @media screen and (max-width:576px) {
+     .blogItems-container{
+     flex-direction: column;
+     margin:30px 200px;
+     width: 500px;
+    }
+    .bookmark-container{
+        margin:30px 340px;
+    }
+    .spentTimeCount{
+        margin: 0px 340px;
+    }
+} 

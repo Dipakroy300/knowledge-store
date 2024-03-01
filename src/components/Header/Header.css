@@ -37,3 +37,15 @@
 .container{
     margin-bottom: 30px;
 }
+
+
+
+@media screen and (max-width:576px){
+    .header{
+        width: 500px;
+    }
+    .container hr{
+        width: 460px;
+    }
+} 
+    

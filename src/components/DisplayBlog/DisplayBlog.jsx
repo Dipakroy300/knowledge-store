@@ -1,5 +1,7 @@
 import React from 'react';
-import './DisplayBlog.css'
+import './DisplayBlog.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBookmark } from '@fortawesome/free-solid-svg-icons';
 
 const DisplayBlog = (props) => {
 
@@ -19,7 +21,8 @@ const DisplayBlog = (props) => {
                   </div>
                </div>
                <div>
-                <p>{time} min read <span className='bookmark'onClick={()=>handleBookmark(props.blog)}></span> </p>
+                <p>{time} min read <span className='bookmark'onClick={()=>handleBookmark(props.blog)}>
+                    < FontAwesomeIcon icon={faBookmark} size='lg'/></span> </p>
                </div>
             </div>
             <h1>{title}</h1>
